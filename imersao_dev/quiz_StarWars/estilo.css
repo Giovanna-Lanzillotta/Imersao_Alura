@@ -16,7 +16,7 @@ body {
 
     
   .logo-titulo {
-    text-align:left;
+    text-align:center;
   }
   
   .logo-titulo img {
@@ -149,7 +149,7 @@ body {
     font-size: 18px; /* Tamanho da fonte */
     transition: background-color 0.3s; /* Transição suave para a cor de fundo */
    align-items: center;
-   margin-top: 300px; /* Adiciona uma margem superior para abaixar o botão */
+   margin-top: 100px; /* Adiciona uma margem superior para abaixar o botão */
 }
 
 #botaoComecar:hover {
