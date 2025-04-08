@@ -93,6 +93,11 @@ body {
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Faz a imagem ser um bloco */
     margin: 0 auto;
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+
+
 }
   
   /* Botões de resposta */
@@ -108,7 +113,7 @@ body {
   }
   
   .botao-resposta:hover {
-    background: #9c9be7;
+    background: #494949;
     font-weight: 600;
   }
   
@@ -127,3 +132,27 @@ body {
     color: white;
   }
   
+
+.inicio {
+    margin-top: 50px; /* Espaço acima do botão */
+}
+
+#botaoComecar {
+  display: block; /* Faz o botão ser um bloco */
+    margin: 0 auto; /* Margens automáticas para centralizar */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: yellow; /* Cor do texto */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: solid yellow; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+   align-items: center;
+   margin-top: 300px; /* Adiciona uma margem superior para abaixar o botão */
+}
+
+#botaoComecar:hover {
+    background-color: gray; /* Cor ao passar o mouse */
+    color: yellow;
+}

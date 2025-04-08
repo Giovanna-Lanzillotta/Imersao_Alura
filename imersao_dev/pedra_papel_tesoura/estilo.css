@@ -19,7 +19,7 @@ body {
   
   /* Container with the background image */
   .container {
-    background: url('https://img.freepik.com/vetores-premium/brinquedos-de-madeira-para-criancas-para-o-fundo-de-jogos-montessori-brinquedos-de-logica-de-educacao-para-criancas-pre-escolares-sistema-montessori-para-o-desenvolvimento-da-primeira-infancia_192280-187.jpg') no-repeat center center/cover;
+    background: url('https://www.papeiseparede.com.br/4951-thickbox_default/papel-de-parede-sala-de-jogos-classicos.jpg.webp') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -37,33 +37,51 @@ body {
   }
   
   .content h2 {
+    font-size: 50px;
     margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+  .content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
   }
 
 
   img{
     width: 150px;
     height: 150px;
+    border: solid black;
   }
   
-  /* Button Styles
+  /* Button Styles */
   button {
-    background-color: #ff1b7b;
-    border: none;
+    background-color: #3586ff;
+    border: solid black;
     padding: 10px 20px;
     font-size: 1.2em;
-    color: rgb(255, 255, 255);
+    color:black;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background-color: #1ABC9C;
-  } */
-  
+    background-color: #7cc0ff;
+  }
+
   /* Footer Styles */
   footer {
     text-align: center;
     padding: 10px;
   }
+
+  
   

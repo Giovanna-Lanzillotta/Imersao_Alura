@@ -36,6 +36,46 @@ body {
   
   .content h2 {
     margin-bottom: 20px;
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+
+  .content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gold;
+    margin-bottom: 5x;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+
+  .content label {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gold;
+    margin-bottom: 5x;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+
+  .content input {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 5x;
+    background-color: beige;
+    border-radius: 20px;
   }
   
   /* Button Styles */
@@ -58,4 +98,6 @@ body {
     text-align: center;
     padding: 10px;
   }
+
+
   

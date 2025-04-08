@@ -1,3 +1,5 @@
+
+function jogar(){
 idade = parseInt(prompt("Digite sua idade:"))
 if (idade < 18) {
     alert("Você não pode jogar")
@@ -48,4 +50,15 @@ if (idade < 18) {
             alert(" 😢Perdeu!\n" + "Você escolheu:✌ " + escolhaJogador + "\n Escolha computador:✊ " + escolhaComputador)
         }
     }
+}
+
+
+}
+
+
+function como_jogar() {
+    alert("PEDRA✊ GANHA TESOURA✌ \n"+
+        "TESOURA✌ GANHA PAPEL✋ \n"+
+       " PAPEL✋ GANHA PEDRA✊ \n")
+    
 }

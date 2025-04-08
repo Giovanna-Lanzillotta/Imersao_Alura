@@ -1,6 +1,5 @@
 function jogar() {
 
-
 corredores = ["","",""]
 computador = ["","",""]
 
@@ -14,6 +13,7 @@ for(let i = 0;i < 3;i++){
   velocidade_corredores += Math.floor(Math.random() * 100) + 1
 }
 alert("Seus corredores são: "+corredores)
+
 
 
 //parte do computador
@@ -35,11 +35,18 @@ if (velocidade_corredores > velocidade_computador){
 }else if(velocidade_computador > velocidade_corredores){
   alert("Você perdeu com "+velocidade_corredores+" contra "+velocidade_computador)
 }else{
-  alert("opa deu empate")
+  alert("Opa deu empate!")
 
 }
 }
 
 document.getElementById('btnJogar').addEventListener('click', function() {
+
       
   jogar('rodada');});
+
+  
+function como_jogar() {
+  const mensagem = document.getElementById("mensagem");
+    mensagem.innerHTML = "Escolha seus corredores e veja que é o mais veloz!🏃‍♂️🏃‍♂️🏃‍♂️";
+  }
