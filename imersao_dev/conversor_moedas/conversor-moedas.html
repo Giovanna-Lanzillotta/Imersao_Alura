@@ -12,12 +12,20 @@
   
     <div class="container">
       <div class="content">
+        <img src ="https://i.gifer.com/ZgRn.gif">
+
         <h2>CONVERSOR DE MOEDAS</h2>
         <p> Qual moeda você gostaria de converter?</p>
         
-        <label for="valor">Digite o valor em Reais:</label>
+      <label for="valor">Digite o valor em Reais:</label>
       <input type="number" id="valor" placeholder="Valor em Reais">
-        
+
+      <label for="resultado">Resultado:</label>
+      <input type="number" id="resultado" placeholder="..." readonly> 
+      <!-- readonly pode ser visto pelo usuário mas não modificado -->
+
+        <br>
+
         <button id="btnDolar">Converter para Dólar</button>
         <button id="btnEuro">Converter para Euro</button>
         <button id="btnWon">Converter para Won</button>
@@ -25,9 +33,13 @@
         <script src="script.js"></script> <!-- Linkando o arquivo JavaScript -->
       </div>
     </div>
-    <footer>Alura - Imersão DEV - 2025</footer>
+
+    <footer>
+      Alura - Imersão DEV - 2025
+    </footer>
+
   </body>
-  
+
   
 </html>
 

@@ -16,6 +16,11 @@ body {
     max-width: 150px;
     width: auto;
   }
+
+  img{
+    width: 35%;
+    height: auto;
+  }
   
   /* Container with the background image */
   .container {
@@ -30,7 +35,7 @@ body {
   .content {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px;
+    padding: 30px 50px;
     border-radius: 8px;
   }
   
